@@ -35,8 +35,12 @@
         <section id="videos">
             <div class="container">
                 <h2>Videos</h2>
+                <div class='embed-container bs_margin30'>
+                    <iframe src='https://player.vimeo.com/video/351460188/' frameborder='0' webkitAllowFullScreen
+                            mozallowfullscreen allowFullScreen></iframe>
+                </div>
                 <div class='embed-container'>
-                    <iframe src='https://player.vimeo.com/video/323853534/' frameborder='0' webkitAllowFullScreen
+                    <iframe src='https://player.vimeo.com/video/348464002/' frameborder='0' webkitAllowFullScreen
                             mozallowfullscreen allowFullScreen></iframe>
                 </div>
 
