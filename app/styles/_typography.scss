@@ -1,0 +1,85 @@
+strong {
+  font-weight: 700;
+}
+
+h1 {
+  font-family: $h1-font-family;
+  font-size: $h1-size;
+  font-weight: $h1-weight;
+  line-height: $h1-line-height;
+  color: $h1-color;
+  margin-bottom: $h1-margin;
+  text-transform: $h1-transform;
+  text-align: center;
+  letter-spacing: .06em;
+}
+
+h2 {
+  font-family: $h2-font-family;
+  font-size: $h2-size;
+  font-weight: $h2-weight;
+  line-height: $h2-line-height;
+  color: $h2-color;
+  margin-bottom: $h2-margin;
+  text-transform: $h2-transform;
+  @media screen and (max-width: $breakpoint-mobile) {
+    font-size: 30px;
+  }
+}
+
+h3 {
+  font-family: $h3-font-family;
+  font-size: $h3-size;
+  font-weight: $h3-weight;
+  line-height: $h3-line-height;
+  color: $h3-color;
+  margin-bottom: $h3-margin;
+  text-transform: $h3-transform;
+  letter-spacing: 1em;
+  &.white {
+    color: white;
+  }
+  @media screen and (max-width: $breakpoint-mobile) {
+    font-size: 30px;
+    letter-spacing: .25em;
+  }
+}
+
+h4 {
+  font-family: $h4-font-family;
+  font-size: $h4-size;
+  font-weight: $h4-weight;
+  line-height: $h4-line-height;
+  color: $h4-color;
+  margin-bottom: $h4-margin;
+  text-transform: $h4-transform;
+  &.black {
+    color: black;
+  }
+}
+
+p {
+  font-family: $p-font-family;
+  font-size: $p-size;
+  font-weight: $p-weight;
+  line-height: $p-line-height;
+  color: $p-color;
+  margin-bottom: $p-margin;
+  text-transform: $p-transform;
+  &.white {
+    color: white;
+  }
+}
+
+a,
+a:visited,
+a:active {
+  color: $link-color;
+  text-decoration: $link-decoration;
+}
+
+a:hover {
+  color: $link-color-hover;
+  text-decoration: $link-decoration-hover;
+  cursor: pointer;
+}

@@ -1,0 +1,549 @@
+/* KIM'S FRAMEWORK */
+
+$breakpoint-tablet: 1200px;
+$breakpoint-mobile: 768px;
+
+/* GRID SYSTEM */
+.bs_row {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- */
+  display: -ms-flexbox; /* IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  /* change directions */
+  &.bs_row.bs_direction_column {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+  &.bs_row.bs_direction_row {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+  }
+}
+
+.bs_one,
+.bs_two,
+.bs_three,
+.bs_four,
+.bs_five,
+.bs_six,
+.bs_seven,
+.bs_eight {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0; /* to fix FF 36 responsive images bug: http://stackoverflow.com/questions/28710379/firefox-flexbox-image-width */
+  img {
+    height: auto;
+    max-width: 100%;
+    align-self: center;
+    display: block;
+  }
+}
+
+.bs_two {
+  -webkit-box-flex: 2;
+  -moz-box-flex: 2;
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+.bs_three {
+  -webkit-box-flex: 3;
+  -moz-box-flex: 3;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+.bs_four {
+  -webkit-box-flex: 4;
+  -moz-box-flex: 4;
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+}
+
+.bs_five {
+  -webkit-box-flex: 5;
+  -moz-box-flex: 5;
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+}
+
+.bs_six {
+  -webkit-box-flex: 6;
+  -moz-box-flex: 6;
+  -webkit-flex: 6;
+  -ms-flex: 6;
+  flex: 6;
+}
+
+.bs_seven {
+  -webkit-box-flex: 7;
+  -moz-box-flex: 7;
+  -webkit-flex: 7;
+  -ms-flex: 7;
+  flex: 7;
+}
+
+.bs_eight {
+  -webkit-box-flex: 8;
+  -moz-box-flex: 8;
+  -webkit-flex: 8;
+  -ms-flex: 8;
+  flex: 8;
+}
+
+/* the following is to fix FF 36 responsive images bug: http://stackoverflow.com/questions/28710379/firefox-flexbox-image-width */
+@-moz-document url-prefix() {
+  .bs_one img, .bs_two img, .bs_three img, .bs_four img, .bs_five img, .bs_six img, .bs_seven img, .bs_eight img {
+    max-width: 100%;
+  }
+}
+
+.bs_flexItems {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- */
+  display: -ms-flexbox; /* IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.bs_blockItems {
+  display: block;
+  width: 100%;
+}
+
+/* ALIGNMENTS */
+.bs_text_left {
+  text-align: left;
+}
+
+.bs_text_right {
+  text-align: right;
+}
+
+.bs_text_center {
+  text-align: center;
+}
+
+.bs_text_justify {
+  text-align: justify;
+}
+
+.bs_fullScreen {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.bs_horizontallyCentered {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bs_verticallyCentered {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.bs_top {
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+.bs_bottom {
+  align-items: flex-end;
+  align-self: flex-end;
+}
+
+.bs_centered {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bs_left {
+  -webkit-box-pack: flex-start;
+  -moz-box-pack: flex-start;
+  -ms-flex-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.bs_right {
+  -webkit-box-pack: flex-end;
+  -moz-box-pack: flex-end;
+  -ms-flex-pack: flex-end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.bs_marginAuto {
+  margin: auto;
+}
+
+/* floats */
+.bs_floatLeft {
+  float: left;
+}
+
+.bs_floatRight {
+  float: right;
+}
+
+.bs_clearFloat {
+  width: 100%;
+  clear: both;
+}
+
+/* RESPONSIVE 16x9 VIDEOS */
+.bs_video16x9 {
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  & > div {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.bs_videoContainer {
+  position: relative;
+  height: 0;
+  padding: 56.25% 0 0 0;
+}
+
+/* TABLET & MEDIUM SCREENS */
+@media screen and (max-width: $breakpoint-tablet) {
+  /* change row direction to column on tablet and mobile */
+  .bs_row.bs_changeColumnDirection {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+  .bs_centeredOnTablet {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  /* change row direction to column */
+  .bs_changeTabletDirection {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+}
+
+/* MOBILE & SMALL SCREENS */
+@media all and (max-width: $breakpoint-mobile) {
+  /* change row direction to column */
+  .bs_row {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+  .bs_centeredOnMobile {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  .bs_floatNoneOnMobile {
+    float: none;
+  }
+}
+
+/* paddings and margins */
+.bs_padding0 {
+  padding: 0;
+}
+
+.bs_padding1 {
+  padding: 0 1% 0 1%;
+}
+
+.bs_padding2 {
+  padding: 0 2% 0 2%;
+}
+
+.bs_padding3 {
+  padding: 0 3% 0 3%;
+}
+
+.bs_padding4 {
+  padding: 0 4% 0 4%;
+}
+
+.bs_padding5 {
+  padding: 0 5% 0 5%;
+}
+
+.bs_padding6 {
+  padding: 0 6% 0 6%;
+}
+
+.bs_padding7 {
+  padding: 0 7% 0 7%;
+}
+
+.bs_padding8 {
+  padding: 0 8% 0 8%;
+}
+
+.bs_padding8 {
+  padding: 0 9% 0 9%;
+}
+
+.bs_padding10 {
+  padding: 0 10% 0 10%;
+}
+
+.bs_margin0 {
+  margin: 0;
+}
+
+.bs_margin5 {
+  margin-bottom: 5px;
+}
+
+.bs_margin10 {
+  margin-bottom: 10px;
+}
+
+.bs_margin15 {
+  margin-bottom: 15px;
+}
+
+.bs_margin20 {
+  margin-bottom: 20px;
+}
+
+.bs_margin25 {
+  margin-bottom: 25px;
+}
+
+.bs_margin30 {
+  margin-bottom: 30px;
+}
+
+.bs_margin35 {
+  margin-bottom: 35px;
+}
+
+.bs_margin40 {
+  margin-bottom: 40px;
+}
+
+.bs_margin45 {
+  margin-bottom: 45px;
+}
+
+.bs_margin50 {
+  margin-bottom: 50px;
+}
+
+.bs_margin60 {
+  margin-bottom: 60px;
+}
+
+.bs_margin70 {
+  margin-bottom: 70px;
+}
+
+.bs_margin80 {
+  margin-bottom: 80px;
+}
+
+.bs_margin90 {
+  margin-bottom: 90px;
+}
+
+.bs_margin100 {
+  margin-bottom: 100px;
+}
+
+/* HIDE & SHOW */
+.bs_show, .bs_showOnDesktop {
+  display: block;
+}
+
+.bs_hide {
+  display: none;
+}
+
+@media all and (min-width: $breakpoint-tablet+1) {
+  .bs_hideOnDesktop {
+    display: none;
+  }
+}
+
+@media all and (max-width: $breakpoint-tablet) and (min-width: $breakpoint-mobile) {
+  .bs_hideOnTablet {
+    display: none;
+  }
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+  .bs_hideOnMobile {
+    display: none;
+  }
+}
+
+//***
+//custom grids -
+//***
+
+.bs_rowCustom {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
+.bs_3to2,
+.bs_2to2,
+.bs_4to2,
+.bs_5to2,
+.bs_6to2,
+.bs_4to2to1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0; /* to fix FF 36 responsive images bug: http://stackoverflow.com/questions/28710379/firefox-flexbox-image-width */
+  img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    align-self: center;
+    display: block;
+  }
+}
+
+/* the following is to fix FF 36 responsive images bug: http://stackoverflow.com/questions/28710379/firefox-flexbox-image-width */
+@-moz-document url-prefix() {
+  .bs_3to2,
+  .bs_2to2,
+  .bs_4to2,
+  .bs_5to2,
+  .bs_6to2,
+  .bs_4to2to1 {
+    img {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.bs_2to2 {
+  margin: 0 2% 2% 2%;
+  flex-basis: 46% !important;
+}
+
+.bs_3to2 {
+  flex-basis: 30% !important;
+  margin: 0 1.6% 1.6% 1.6%;
+  align-items: flex-end;
+}
+
+.bs_4to2,
+.bs_4to2to1 {
+  flex-basis: 23% !important;
+  margin: 0 1% 1% 1%;
+  align-items: flex-end;
+}
+
+.bs_5to2 {
+  flex-basis: 18% !important;
+  margin: 0 1% 1% 1%;
+  align-items: flex-end;
+}
+
+.bs_6to2 {
+  flex-basis: 14.6% !important;
+  margin: 0 1% 1% 1%;
+  align-items: flex-end;
+}
+
+@media all and (max-width: $breakpoint-tablet) {
+  .bs_3to2,
+  .bs_4to2,
+  .bs_5to2,
+  .bs_6to2,
+  .bs_4to2to1 {
+    margin: 0 2% 2% 2%;
+    flex-basis: 46% !important;
+  }
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+  .bs_rowCustom {
+    flex-direction: row;
+  }
+  .bs_4to2to1 {
+    margin: 0 2% 2% 2%;
+    flex-basis: 98% !important;
+  }
+  .bs_bringToTop {
+    order: -1;
+  }
+  .bs_bringToBottom {
+    order: 999;
+  }
+}

@@ -1,0 +1,35 @@
+.button {
+  font-family: $button-font;
+  font-weight: $button-font-weight;
+  padding: $button-padding;
+  background-color: $button-background-color;
+  color: $button-font-color!important;
+  font-size: $button-font-size;
+  text-transform: $button-text-transform;
+  border: $button-border;
+  transition: $button-transition;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 0;
+  margin: 0;
+  &:hover {
+    color: $button-font-color-hover!important;
+    background-color: $button-background-color-hover;
+    color: $button-font-color-hover;
+    border: $button-border-hover;
+    text-decoration: none;
+  }
+  &.inactive {
+    background-color: white;
+    color: $secondary-color!important;
+    border: $secondary-color 2px solid;
+    text-decoration: none;
+    &:hover {
+      color: $button-font-color-hover!important;
+      background-color: $button-background-color-hover;
+      color: $button-font-color-hover;
+      border: $button-border-hover;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+$breakpoint-tablet: 1200px;
+$breakpoint-mobile: 768px;
+$nav-breakpoint: 1100px;
+
+//Colors
+$background-color: #fff;
+$light-gray: #d6ced0;
+$medium-gray: #aea8aa;
+$dark-gray: #231a1d;
+$primary-color: #d2c8cb;
+$secondary-color: #714954;
+$tertiary-color: #e9a568;
+$quaternary-color: #714954;
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+$primary-font-family: 'Open Sans', sans-serif;
+$secondary-font-family: 'Open Sans', sans-serif;
+
+//Typography
+$h1-font-family: $secondary-font-family;
+$h1-size: 80px;
+$h1-weight: 300;
+$h1-color: white;
+$h1-line-height: 1.25em;
+$h1-margin: 30px;
+$h1-transform: none;
+
+$h2-font-family: $primary-font-family;
+$h2-size: 100px;
+$h2-weight: 300;
+$h2-color: $dark-gray;
+$h2-line-height: 1.25em;
+$h2-margin: 100px;
+$h2-transform: none;
+
+$h3-font-family: $primary-font-family;
+$h3-size: 25px;
+$h3-weight: 300;
+$h3-color: $dark-gray;
+$h3-line-height: 1.5em;
+$h3-margin: 30px;
+$h3-transform: uppercase;
+
+$h4-font-family: $primary-font-family;
+$h4-size: 16px;
+$h4-weight: 700;
+$h4-color: black;
+$h4-line-height: 1.5em;
+$h4-margin: 20px;
+$h4-transform: none;
+
+$p-font-family: $primary-font-family;
+$p-size: 16px;
+$p-weight: 300;
+$p-color: $dark-gray;
+$p-line-height: 1.5em;
+$p-margin: 30px;
+$p-transform: none;
+
+//Links
+$link-color: $tertiary-color;
+$link-decoration: none;
+$link-color-hover: $secondary-color;
+$link-decoration-hover: none;
+
+//Buttons
+$button-font: $primary-font-family;
+$button-font-size: 16px;
+$button-font-color: white;
+$button-font-weight: 400;
+$button-text-transform: capitalize;
+$button-background-color: $secondary-color;
+$button-border: $secondary-color 2px solid;
+$button-background-color-hover: $primary-color;
+$button-font-color-hover: white;
+$button-border-hover: $primary-color 2px solid;
+$button-padding: 15px 50px;
+$button-transition: .25s all linear;
+
+//Lists
+$ul-margin: 0 0 20px 0;
+$li-content: '\2022'; //set to a bullet ('\2022') by default
+$li-content-color: $secondary-color;
+$li-content-size: 16px;
+$li-content-distance-from-top: 0;
+$li-content-distance-from-left: 20px;

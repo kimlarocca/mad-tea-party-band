@@ -1,0 +1,9 @@
+{
+  "name": "freddy-map",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+  }
+}

@@ -1,0 +1,22 @@
+footer {
+  background: $primary-color;
+  img {
+    margin-bottom: 30px;
+  }
+  .footerCopy {
+    padding: 50px 50px 50px 0;
+    @media all and (max-width: $breakpoint-mobile) {
+      padding: 40px;
+    }
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  .container {
+    padding: 30px;
+  }
+}
