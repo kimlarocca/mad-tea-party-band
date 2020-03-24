@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Toys\"R\"Us Product Engine",
+    "url": "http://34.238.142.170/images/showcase-toys.jpg",
+    "category": "ecommerce",
+    "description": "The Toys\"R\"Us Product Engine was a responsive web application featuring dynamic filtering which had an 18.6% increase in conversion rate and did over 5.2MM in revenue, an increase of over 3MM from the previous year's landing page."
+  },
+  {
+    "name": "Toys\"R\"Us Great Deals Store",
+    "url": "http://34.238.142.170/images/showcase-toys-deals.jpg",
+    "category": "ecommerce",
+    "description": "This mobile friendly web store launched on the ToysRUs and BabiesRUs website on 10/9/15. It was powered by a custom web application built to improve cross functional efficiency that reduced the digital department headcount by 2 FTEs. In addition to internal time savings, the Great Deals Store generated over 30MM during the first few months it went live."
+  },
+  {
+    "name": "Babies\"R\"Us Happy Places",
+    "url": "http://34.238.142.170/images/showcase-babies.jpg",
+    "category": "ecommerce",
+    "description": "Happy Places, a responsive e-commerce Micro-Destination, featured an interactive parallax experience with CSS animations, full screen image sliders, responsive tooltips and lightboxes."
+  },
+  {
+    "name": "Baby Driver",
+    "url": "http://34.238.142.170/images/showcase-babydriver.jpg",
+    "category": "creative",
+    "description": "Lorem Ipsum dolor sit amet."
+  },
+  {
+    "name": "Elpis Pharmaceuticals",
+    "url": "http://34.238.142.170/images/showcase-elpis.jpg",
+    "category": "healthcare",
+    "description": "Elpis Pharmaceuticals completely re-branded their business including logo design, web design and other printed materials. The website features an animated hero and was developed complete with a custom CMS. Devops were included in this project as well (AWS servers and continuous integration pipelines)."
+  },
+  {
+    "name": "Luye Pharmaceuticals",
+    "url": "http://34.238.142.170/images/showcase-babydriver.jpg",
+    "category": "healthcare",
+    "description": "The Luye Pharmaceuticals website features a cutting edge design to match its cutting edge technology, and the website was developed with a custom CMS. Devops were included in this project as well (AWS servers and continuous integration pipelines)."
+  },
+  {
+    "name": "Mentoring Method",
+    "url": "http://34.238.142.170/images/showcase-mentoring.jpg",
+    "category": "education",
+    "description": "Lorem Ipsum dolor sit amet. Devops were included in this project as well (Google cloud servers and continuous integration pipelines)."
+  },
+  {
+    "name": "Real Estate",
+    "url": "http://34.238.142.170/images/showcase-realestate.jpg",
+    "category": "real-estate",
+    "description": "Responsive websites for realtors and brokers, with a custom CMS for managing website content, listings and photos. Dev ops were included in this project as all of the real estate websites are hosted and maintained as well."
+  },
+  {
+    "name": "S&A Solutions",
+    "url": "http://34.238.142.170/images/showcase-sa.jpg",
+    "category": "small-business",
+    "description": "S&A Solutions' website fully automates its staffing business. Built using Laravel and mysql, job seekers can search for and apply for jobs. Employers can log in, post jobs, and view applicants. S&A staff members can manage all aspects of the site including job seekers, employers, and users as well as generate reports. Devops were included in this project as well (AWS servers and continuous integration pipelines)."
+  },
+  {
+    "name": "Slate It",
+    "url": "http://34.238.142.170/images/showcase-slateit.jpg",
+    "category": "ecommerce",
+    "description": "Web-based software for gyms, fitness centers & dance studios custom built using PHP, mySQL and the PayPal API. Devops were included in this project as well (MediaTemple servers)."
+  },
+  {
+    "name": "Vasculogic",
+    "url": "http://34.238.142.170/images/showcase-vasculogic.jpg",
+    "category": "healthcare",
+    "description": "Responsive website featuring moving geometric backgrounds, full-width video backgrounds, and a mobile-friendly multi-level push menu. Logo and other presentation materials were designed as well. Devops were included in this project (MediaTemple servers)."
+  },
+  {
+    "name": "Abbvie iOS App",
+    "url": "http://34.238.142.170/images/showcase-abbvie.jpg",
+    "category": "healthcare",
+    "description": "iPad app for Abbvie Oncology. Displays drug information, clinical trials and videos so pharmaceutical sales reps have all the information they need when meeting with doctors."
+  },
+  {
+    "name": "Pole Dance Revolution",
+    "url": "http://34.238.142.170/images/showcase-pdr.jpg",
+    "category": "creative",
+    "description": "A responsive web design with strong typography and a full-screen menu overlay. PoleDanceRevolution.com is an informational website featuring Pinterest & Vimeo API integration. Devops were included in this project as well (MediaTemple servers)."
+  },
+  {
+    "name": "Tri Com Research",
+    "url": "http://34.238.142.170/images/showcase-tricomresearch.jpg",
+    "category": "small-business",
+    "description": "Responsive web design and development using PHP, Twitter Bootstrap with a custom CMS and mysql database."
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "name": "abbvie",
+    "url": "http://34.238.142.170/images/logos/abbvie.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "alcresta",
+    "url": "http://34.238.142.170/images/logos/alcresta.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "astrazeneca",
+    "url": "http://34.238.142.170/images/logos/astrazeneca.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "aventis",
+    "url": "http://34.238.142.170/images/logos/aventis.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "babies r us",
+    "url": "http://34.238.142.170/images/logos/babies.jpg",
+    "category": "ecommerce"
+  },
+  {
+    "name": "bausch",
+    "url": "http://34.238.142.170/images/logos/bausch.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "bayer",
+    "url": "http://34.238.142.170/images/logos/bayer.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "blackthorn",
+    "url": "http://34.238.142.170/images/logos/blackthorn.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "bluebird",
+    "url": "http://34.238.142.170/images/logos/bluebird.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "celgene",
+    "url": "http://34.238.142.170/images/logos/celgene.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "dendreon",
+    "url": "http://34.238.142.170/images/logos/dendreon.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "dermira",
+    "url": "http://34.238.142.170/images/logos/dermira.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "easterseals",
+    "url": "http://34.238.142.170/images/logos/easterseals.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "elpis",
+    "url": "http://34.238.142.170/images/logos/elpis.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "emd",
+    "url": "http://34.238.142.170/images/logos/emd.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "fao",
+    "url": "http://34.238.142.170/images/logos/fao.jpg",
+    "category": "ecommerce"
+  },
+  {
+    "name": "ibm",
+    "url": "http://34.238.142.170/images/logos/ibm.jpg",
+    "category": "tech"
+  },
+  {
+    "name": "incyte",
+    "url": "http://34.238.142.170/images/logos/incyte.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "intel",
+    "url": "http://34.238.142.170/images/logos/intel.jpg",
+    "category": "tech"
+  },
+  {
+    "name": "intercept",
+    "url": "http://34.238.142.170/images/logos/intercept.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "intuitive",
+    "url": "http://34.238.142.170/images/logos/intuitive.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "ipsen",
+    "url": "http://34.238.142.170/images/logos/ipsen.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "kowa",
+    "url": "http://34.238.142.170/images/logos/kowa.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "lupin",
+    "url": "http://34.238.142.170/images/logos/lupin.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "luye",
+    "url": "http://34.238.142.170/images/logos/luye.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "mentoring method",
+    "url": "http://34.238.142.170/images/logos/mentoring-method.jpg",
+    "category": "education"
+  },
+  {
+    "name": "merck",
+    "url": "http://34.238.142.170/images/logos/merck.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "nbc",
+    "url": "http://34.238.142.170/images/logos/nbc.jpg",
+    "category": "ecommerce"
+  },
+  {
+    "name": "novartis",
+    "url": "http://34.238.142.170/images/logos/novartis.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "npc",
+    "url": "http://34.238.142.170/images/logos/npc.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "nyu",
+    "url": "http://34.238.142.170/images/logos/nyu.jpg",
+    "category": "education"
+  },
+  {
+    "name": "pfizer",
+    "url": "http://34.238.142.170/images/logos/pfizer.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "profusa",
+    "url": "http://34.238.142.170/images/logos/profusa.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "rhythm",
+    "url": "http://34.238.142.170/images/logos/rhythm.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "roche",
+    "url": "http://34.238.142.170/images/logos/roche.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "rutgers",
+    "url": "http://34.238.142.170/images/logos/rutgers.png",
+    "category": "education"
+  },
+  {
+    "name": "sanofi",
+    "url": "http://34.238.142.170/images/logos/sanofi.jpg",
+    "category": "healthcare"
+  },
+  {
+    "name": "schering",
+    "url": "http://34.238.142.170/images/logos/shcering.png",
+    "category": "healthcare"
+  },
+  {
+    "name": "siemens",
+    "url": "http://34.238.142.170/images/logos/siemens.png",
+    "category": "tech"
+  },
+  {
+    "name": "slate it",
+    "url": "http://34.238.142.170/images/logos/slateit.png",
+    "category": "ecommerce"
+  },
+  {
+    "name": "toys r us",
+    "url": "http://34.238.142.170/images/logos/toys.png",
+    "category": "ecommerce"
+  },
+  {
+    "name": "visa",
+    "url": "http://34.238.142.170/images/logos/visa.jpg",
+    "category": "ecommerce"
+  },
+  {
+    "name": "wharton",
+    "url": "http://34.238.142.170/images/logos/wharton.jpg",
+    "category": "education"
+  }
+]
